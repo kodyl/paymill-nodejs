@@ -1,0 +1,25 @@
+{
+  "name": "paymill",
+  "description": "Paymill API wrapper",
+  "version": "0.1.0",
+  "author": "Daniel Juhl <danieljuhl@gmail.com> (http://danieljuhl.com/)",
+  "homepage": "https://github.com/danieljuhl/paymill-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danieljuhl/paymill-nodejs.git"
+  },
+  "licenses" : [
+    {
+      "type": "MIT",
+      "url": "http://github.com/danieljuhl/paymill-nodejs/blob/master/LICENSE"
+    }
+  ],
+  "keywords": ["paymill", "payment", "creditcard", "directdebit", "elv"],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">= v0.8.0"
+  },
+  "scripts": {
+  }
+}
