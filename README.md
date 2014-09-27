@@ -35,7 +35,7 @@ API endpoints
 *Plain JavaScript object, e.g. `{ key: 'value' }` is expected as `data` and as the argument in all `create`-method*
 
  * [clients](https://developers.paymill.com/en/reference/api-reference/#document-clients)
-  * [`create()`](https://developers.paymill.com/en/reference/api-reference/#create-new-client)
+  * [`create(client)`](https://developers.paymill.com/en/reference/api-reference/#create-new-client)
   * [`list(data)`](https://developers.paymill.com/en/reference/api-reference/#list-clients)
   * [`details(clientId)`](https://developers.paymill.com/en/reference/api-reference/#client-details)
   * [`update(clientId, data)`](https://developers.paymill.com/en/reference/api-reference/#update-client)
