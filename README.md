@@ -29,6 +29,7 @@ paymill.{resourceName}.{method}(..., function (err, ...) {
 });
 ```
 
+
 API endpoints
 -------------
 
@@ -78,6 +79,13 @@ API endpoints
   * [`details(webhookId)`](https://developers.paymill.com/en/reference/api-reference/#webhook-details)
   * [`update(webhookId, data)`](https://developers.paymill.com/en/reference/api-reference/#update-webhook)
   * [`remove(webhookId)`](https://developers.paymill.com/en/reference/api-reference/#remove-webhook)
+
+
+TODO
+----
+* Add unit and integration tests
+* Add examples to show how to use the wrapper in various cases
+
 
 Author
 ------
