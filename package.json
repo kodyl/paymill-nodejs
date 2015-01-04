@@ -15,7 +15,9 @@
     }
   ],
   "keywords": ["paymill", "payment", "payments", "creditcard", "directdebit", "elv"],
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "2.5.3"
+  },
   "devDependencies": {},
   "engines": {
     "node": ">= v0.8.0"
