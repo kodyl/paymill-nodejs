@@ -1,7 +1,7 @@
 {
   "name": "paymill",
   "description": "Paymill API wrapper",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Daniel Juhl <danieljuhl@gmail.com> (http://danieljuhl.com/)",
   "homepage": "https://github.com/danieljuhl/paymill-nodejs",
   "repository": {
