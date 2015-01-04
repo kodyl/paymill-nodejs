@@ -21,14 +21,25 @@ The first thing to do, is create a paymill instance using your `Paymill private 
 var paymill = require('paymill')('apiKey'[, 'apiVersion']);
 ```
 
-We can now access the API using a generic pattern, and all methods takes a callback as the last argument.
+We can now access the API using a generic pattern, either with a callback as the last argument otherwise a Promise is returned.
 
+### Using callback
 ```javascript
-paymill.{resourceName}.{method}(..., function (err, ...) {
+paymill.{resourceName}.{method}([arguments], function (err, response) {
 	// ...
 });
 ```
 
+### Using Promise
+```javascript
+paymill.{resourceName}.{method}([arguments])
+  .then(function (response) {
+    // ...
+  })
+  .catch(function (err) {
+    // ...
+  });
+```
 
 API endpoints
 -------------
